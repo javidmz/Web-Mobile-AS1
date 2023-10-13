@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javid Mammadzada</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#links">Links</a></li>
+            <li><a href="#card">Card</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="portfolio">
+          <div class="portfolio-header">
+            <div>
+              <h2><span>Javid</span> Mammadzada</h2>
+              <p><span>Email:</span> jmammadzada16157@ada.edu.az</p>
+              <p><span>Phone:</span> +994555000000</p>
+              <p><span>Address:</span> Mir Jalal 59k</p>
+            </div>
+            <img src="images/portfolio-img.jpeg" alt="portfolio-pic" />
+          </div>
+          <div class="portfolio-description">
+            Frontend Developer with a passion for creating engaging and responsive
+            user interfaces. Adept at translating design concepts into pixel-perfect
+            web applications that enhance user experiences. Seeking to contribute my
+            expertise in frontend development and problem-solving skills to a
+            dynamic team focused on building cutting-edge web applications.
+          </div>
+          <table>
+            <tr>
+              <th>CLOCK</th>
+              <th>MY ACTİON</th>
+            </tr>
+            <tr>
+              <td style="color: orange">06:00</td>
+              <td colspan="2" style="color: orange">i wake up</td>
+            </tr>
+            <tr>
+              <td style="color: orange">06:30</td>
+              <td colspan="2" style="color: orange">i start to study my lessons</td>
+            </tr>
+            <tr>
+              <td style="color: orange">08:30</td>
+              <td colspan="2" style="color: orange">i have a breakfast</td>
+            </tr>
+            <tr>
+              <td style="color: orange">09:30</td>
+              <td colspan="2" style="color: orange">i go to university</td>
+            </tr>
+            <tr>
+              <td style="color: orange">13:00</td>
+              <td colspan="2" style="color: orange">i have a lunch</td>
+            </tr>
+            <tr>
+              <td style="color: orange">14:30</td>
+              <td colspan="2" style="color: orange">
+                i surf in Instagram or Youtube
+              </td>
+            </tr>
+            <tr>
+              <td style="color: orange">16:00</td>
+              <td colspan="2" style="color: orange">i come back to home</td>
+            </tr>
+            <tr>
+              <td style="color: orange">16:30</td>
+              <td colspan="2" style="color: orange">
+                i sleep(i love sleep in the afternoon)
+              </td>
+            </tr>
+            <tr>
+              <td style="color: orange">19:00</td>
+              <td colspan="2" style="color: orange">i have a dinner</td>
+            </tr>
+            <tr>
+              <td style="color: orange">22:00</td>
+              <td colspan="2" style="color: orange">i go to bed</td>
+            </tr>
+          </table>
+        </div>
+    </section>
+    <section id="about">
+        <div class="about">
+            <div>For more information about me click the link below!</div>
+            <a href="/about.html" target="_blank">Click here</a>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-container">
+            <div>Contact Me!</div>
+            <form>
+                <div class="form-fill">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Javid" required autocomplete="true" />
+                </div>
+                <div class="form-fill">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Mammadzada" required autocomplete="true" />
+                </div>
+                <div class="form-fill">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="jmammadzada16157@ada.edu.az" required autocomplete="true" />
+                </div>
+                <div class="form-fill">
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" name="phone" id="phone" placeholder="+994-55-555-44-33" />
+                </div>
+                <div class="form-radio">
+                    <div>Where did you find me?</div>
+                    <div>
+                        <div>
+                            <input type="radio" name="loc" id="internet" />
+                            <label for="internet">Internet</label>                            
+                        </div>
+                        <div>
+                            <input type="radio" name="loc" id="offer" />
+                            <label for="offer">Someone adviced</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="loc" id="random" />
+                            <label for="random">Just found randomly</label>    
+                        </div>
+                    </div>
+                </div>
+                <div class="form-text">
+                    <label for="comment">Add you additional comment:</label>
+                    <textarea id="comment" name="comment" rows="7" cols="50" placeholder="Type you comments..."></textarea>
+                </div>
+            </form>
+            <button type="submit">Submit</button>
+        </div>
+    </section>
+    <section id="links">
+        <div class="links-container">
+            <div>
+                <a href="https://github.com/javidmz" target="_blank">My Github Account</a>
+            </div>
+            <div>
+                <a href="https://javidmz.github.io/Web-Mobile-AS1/" target="_blank">Github Pages</a>
+            </div>
+        </div>
+    </section>
+    <section id="card">
+        <div class="card-container">
+          <div class="card">
+            <img src="images/card-profile.jpg" alt="image" loading="lazy" />
+            <div class="card-header">
+              Hi, I'm <span class="card-fullname">John Rex!</span>
+            </div>
+            <div class="card-pro">Web Designer & Developer</div>
+            <div class="card-line"></div>
+            <div class="card-description">
+              Founder of DotRex. Professional UI/UX designer and web developer based
+              on London. Sometimes works as a freelancer.
+            </div>
+            <button>email: john@dotrex.co / phone:+123 456 789 111</button>
+            <div class="card-socials">
+              <div class="card-social"><i class="fa-brands fa-instagram"></i></div>
+              <div class="card-social"><i class="fa-brands fa-facebook-f"></i></div>
+              <div class="card-social"><i class="fa-brands fa-x-twitter"></i></div>
+              <div class="card-social">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div class="card-social"><i class="fa-brands fa-youtube"></i></div>
+            </div>
+          </div>
+        </div>
+    </section>
+  </body>
+</html>
